@@ -168,7 +168,7 @@ openssl s_client -connect whoislocal.com:443
 - **Task:** Install Certbot and obtain SSL/TLS certificate.
 - **Result:** Website secured with SSL/TLS.
 
-![Browser showing HTTPS connection and SSL certificate details](img/8.png)
+![Browser showing HTTPS connection and SSL certificate details](img/9.png)
 
 ## Conclusion
 
