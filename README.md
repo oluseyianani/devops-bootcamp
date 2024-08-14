@@ -4,7 +4,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 
 ## Table of Contents
 
-1. [Project 1: Setting Up a Static Website Using Nginx](project-1.md)
+1. [Project 1: Setting Up a Static Website Using Nginx](projects/project-1.md)
 
 ## Overview
 

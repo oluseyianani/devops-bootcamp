@@ -13,7 +13,7 @@ The first task was to acquire a domain name. I chose to purchase mine from [Name
 - **Task:** Purchase a domain name.
 - **Result:** Domain purchased successfully.
 
-![Domain purchase confirmation](img/1.png)
+![Domain purchase confirmation](../img/1.png)
 
 ---
 
@@ -28,8 +28,8 @@ With my domain secured, the next step was to launch an Ubuntu server on AWS EC2.
 - **Task:** Launch an Ubuntu server on AWS EC2.
 - **Result:** EC2 instance launched and running.
 
-![EC2 instance launch page](img/2.png)
-![EC2 instance SSH Launch](img/2b.png)
+![EC2 instance launch page](../img/2.png)
+![EC2 instance SSH Launch](../img/2b.png)
 
 ---
 
@@ -43,7 +43,7 @@ To make my server accessible over the internet, I needed a static IP address. I 
 - **Task:** Assign an Elastic IP to the instance.
 - **Result:** Elastic IP assigned successfully.
 
-![Elastic IP allocation and association](img/3.png)
+![Elastic IP allocation and association](../img/3.png)
 
 ---
 
@@ -57,7 +57,7 @@ With my server up and running, I used the key pair I generated earlier to connec
 - **Task:** Connect to the EC2 instance via SSH.
 - **Result:** Successfully connected to the server.
 
-![EC2 instance SSH Launch](img/2b.png)
+![EC2 instance SSH Launch](../img/2b.png)
 
 ---
 
@@ -81,8 +81,8 @@ sudo systemctl start nginx && sudo systemctl enable nginx
 - **Task:** Install and start Nginx.
 - **Result:** Nginx installed and running.
 
-![Nginx status check in the terminal](img/5.png)
-![Nginx status check in the browser](img/5b.png)
+![Nginx status check in the terminal](../img/5.png)
+![Nginx status check in the browser](../img/5b.png)
 
 ## Step 6: Uploading My Website Files
 
@@ -103,8 +103,8 @@ sudo apt install unzip && sudo unzip 2088_big_city.zip
 - **Task**: Download and unzip website files.
 - **Result**: Website files uploaded and extracted.
 
-![Directory listing showing website files](img/6.png)
-![Directory listing showing extracted website files](img/6b.png)
+![Directory listing showing website files](../img/6.png)
+![Directory listing showing extracted website files](../img/6b.png)
 
 ## Step 7: Configuring Nginx to Serve My Website
 
@@ -127,7 +127,7 @@ sudo systemctl restart nginx
 - **Task:** Configure Nginx to serve the website.
 - **Result:** Nginx successfully configured to serve my static website.
 
-![Edited Nginx configuration file](img/7.png)
+![Edited Nginx configuration file](../img/7.png)
 
 
 ## Step 8: Setting Up DNS with Route 53
@@ -141,7 +141,7 @@ Now it was time to make my website accessible via my custom domain. I set up DNS
 - **Task:** Configure DNS with Route 53.
 - **Result:** Domain successfully pointing to my server.
 
-![Route 53 hosted zone and DNS settings](img/8.png)
+![Route 53 hosted zone and DNS settings](../img/8.png)
 
 ---
 
@@ -168,7 +168,7 @@ openssl s_client -connect whoislocal.com:443
 - **Task:** Install Certbot and obtain SSL/TLS certificate.
 - **Result:** Website secured with SSL/TLS.
 
-![Browser showing HTTPS connection and SSL certificate details](img/9.png)
+![Browser showing HTTPS connection and SSL certificate details](../img/9.png)
 
 ## Conclusion
 
