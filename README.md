@@ -5,6 +5,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 ## Table of Contents
 
 1. [Project 1: Setting Up a Static Website Using Nginx](projects/project-1.md)
+2. [Project 2: Setup Multiple Static Websites on a Single Server Using Nginx Virtual Hosts](projects/project-2.md)
 
 ## Overview
 
