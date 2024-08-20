@@ -42,13 +42,13 @@ Next, I created two directories on the server, each for a different website. I u
 
 1. I navigated to the `/var/www/html` directory where the website files would be stored.
 
-2. I downloaded the first template using `curl` and unzipped it into a directory named `level`:
+2. I downloaded the first template using `curl` and unzipped it into a directory named `2095_level`:
 
     ```bash
     sudo curl -o /var/www/html/2095_level.zip https://www.tooplate.com/zip-templates/2095_level.zip && sudo unzip -d /var/www/html/ /var/www/html/2095_level.zip && sudo rm -f /var/www/html/2095_level.zip
     ```
 
-3. I repeated the process for the second template, storing it in a directory named `dashboard`:
+3. I repeated the process for the second template, storing it in a directory named `2108_dashboard`:
 
     ```bash
     sudo curl -o /var/www/html/2108_dashboard.zip https://www.tooplate.com/zip-templates/2108_dashboard.zip && sudo unzip -d /var/www/html/ /var/www/html/2108_dashboard.zip && sudo rm -f /var/www/html/2108_dashboard.zip
@@ -73,10 +73,10 @@ To host the two websites under different subdomains, I first created two subdoma
 
 With the subdomains in place, I configured Nginx to serve different content based on the subdomain.
 
-1. I created a new configuration file for the cleaning website:
+1. I created a new configuration file for the level website:
 
     ```bash
-    sudo nano /etc/nginx/sites-available/cleaning
+    sudo nano /etc/nginx/sites-available/level
     ```
 
 2. I added the following configuration:
@@ -84,9 +84,9 @@ With the subdomains in place, I configured Nginx to serve different content base
     ```bash
     server {
         listen 80;
-        server_name cleaning.mywebsite.com www.cleaning.mywebsite.com;
+        server_name level.whoislocal.com www.level.whoislocal.com;
 
-        root /var/www/html/cleaning;
+        root /var/www/html/2095_level;
         index index.html;
 
         location / {
@@ -95,10 +95,10 @@ With the subdomains in place, I configured Nginx to serve different content base
     }
     ```
 
-3. I repeated the process for the health website:
+3. I repeated the process for the dashboard website:
 
     ```bash
-    sudo nano /etc/nginx/sites-available/health
+    sudo nano /etc/nginx/sites-available/dashboard
     ```
 
    And added this configuration:
@@ -106,9 +106,9 @@ With the subdomains in place, I configured Nginx to serve different content base
     ```bash
     server {
         listen 80;
-        server_name health.mywebsite.com www.health.mywebsite.com;
+        server_name dashboard.whoislocal.com www.dashboard.whoislocal.com;
 
-        root /var/www/html/health;
+        root /var/www/html/2108_dashboard;
         index index.html;
 
         location / {
