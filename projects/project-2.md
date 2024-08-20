@@ -76,7 +76,7 @@ With the subdomains in place, I configured Nginx to serve different content base
 1. I created a new configuration file for the level website:
 
     ```bash
-    sudo nano /etc/nginx/sites-available/level
+    sudo vim /etc/nginx/sites-available/level
     ```
 
 2. I added the following configuration:
@@ -98,7 +98,7 @@ With the subdomains in place, I configured Nginx to serve different content base
 3. I repeated the process for the dashboard website:
 
     ```bash
-    sudo nano /etc/nginx/sites-available/dashboard
+    sudo vim /etc/nginx/sites-available/dashboard
     ```
 
    And added this configuration:
@@ -157,8 +157,8 @@ To secure the websites, I used Certbot to obtain SSL certificates for both subdo
 3. Finally, I verified the SSL configuration using the OpenSSL utility:
 
     ```bash
-    openssl s_client -connect level.mywebsite.com:443
-    openssl s_client -connect dashboard.mywebsite.com:443
+    openssl s_client -connect level.whoislocal.com:443
+    openssl s_client -connect dashboard.whoislocal.com:443
     ```
 
 - **Task:** Install Certbot and configure SSL for the websites.
