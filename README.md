@@ -12,6 +12,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 In this repository, you'll find detailed documentation for each of the projects listed above. Each project is aimed at developing specific skills and understanding key concepts within web development, server management, and cloud computing.
 
 - **Project 1:** In the first project, I set up a static website using Nginx, hosted on an AWS EC2 instance. This project covers everything from registering a domain to securing the site with SSL/TLS certificates.
+- **Project 2:** In the second project, I explored how to host multiple static websites on a single server using Nginx Virtual Hosts. This included setting up subdomains, configuring virtual hosts, and securing the sites with SSL certificates using Certbot.
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
