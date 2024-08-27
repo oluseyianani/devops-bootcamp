@@ -6,6 +6,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 
 1. [Project 1: Setting Up a Static Website Using Nginx](projects/project-1.md)
 2. [Project 2: Setup Multiple Static Websites on a Single Server Using Nginx Virtual Hosts](projects/project-2.md)
+3. [Project 3: Setup Load Balancing for Static Websites Using Nginx](projects/project-3.md)
 
 ## Overview
 
@@ -13,6 +14,8 @@ In this repository, you'll find detailed documentation for each of the projects 
 
 - **Project 1:** In the first project, I set up a static website using Nginx, hosted on an AWS EC2 instance. This project covers everything from registering a domain to securing the site with SSL/TLS certificates.
 - **Project 2:** In the second project, I explored how to host multiple static websites on a single server using Nginx Virtual Hosts. This included setting up subdomains, configuring virtual hosts, and securing the sites with SSL certificates using Certbot.
+- **Project 3:** In the third project, I delved into load balancing with Nginx, looking into how to distribute incoming web traffic across multiple servers to enhance site reliability and performance. It involves setting up a Nginx as a load balancer, configuring DNS, and securing connections with SSL/TLS.
+
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
