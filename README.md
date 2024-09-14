@@ -8,6 +8,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 2. [Project 2: Setup Multiple Static Websites on a Single Server Using Nginx Virtual Hosts](projects/project-2.md)
 3. [Project 3: Setup Load Balancing for Static Websites Using Nginx](projects/project-3.md)
 4. [Project 4: Setup WordPress Website Using LAMP Stack](projects/project-4.md)
+5. [Project 5: Setup Service Discovery Using Nginx & Consul](projects/project-5.md)
 
 ## Overview
 
@@ -17,6 +18,7 @@ In this repository, you'll find detailed documentation for each of the projects 
 - **Project 2:** In the second project, I explored how to host multiple static websites on a single server using Nginx Virtual Hosts. This included setting up subdomains, configuring virtual hosts, and securing the sites with SSL certificates using Certbot.
 - **Project 3:** In the third project, I delved into load balancing with Nginx, looking into how to distribute incoming web traffic across multiple servers to enhance site reliability and performance. It involves setting up a Nginx as a load balancer, configuring DNS, and securing connections with SSL/TLS.
 - **Project 4:** For the fourth project, I set up a WordPress website using a LAMP stack (Linux, Apache, MySQL, PHP), covering the process from server setup to final website configuration, including securing the site with SSL certificates and WordPress customization.
+- **Project 5:** In the fifth project, I implemented service discovery using Nginx and Consul. This project focused on setting up Consul for dynamic service registration and discovery, configuring Nginx as a load balancer that automatically updates its backend servers based on Consul's service registry, and validating the dynamic scaling and health checks in a microservices environment.
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
