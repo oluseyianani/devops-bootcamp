@@ -9,6 +9,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 3. [Project 3: Setup Load Balancing for Static Websites Using Nginx](projects/project-3.md)
 4. [Project 4: Setup WordPress Website Using LAMP Stack](projects/project-4.md)
 5. [Project 5: Setup Service Discovery Using Nginx & Consul](projects/project-5.md)
+6. [Project 6: Flask API Project](projects/project-6.md)
 
 ## Overview
 
@@ -19,6 +20,7 @@ In this repository, you'll find detailed documentation for each of the projects 
 - **Project 3:** In the third project, I delved into load balancing with Nginx, looking into how to distribute incoming web traffic across multiple servers to enhance site reliability and performance. It involves setting up a Nginx as a load balancer, configuring DNS, and securing connections with SSL/TLS.
 - **Project 4:** For the fourth project, I set up a WordPress website using a LAMP stack (Linux, Apache, MySQL, PHP), covering the process from server setup to final website configuration, including securing the site with SSL certificates and WordPress customization.
 - **Project 5:** In the fifth project, I implemented service discovery using Nginx and Consul. This project focused on setting up Consul for dynamic service registration and discovery, configuring Nginx as a load balancer that automatically updates its backend servers based on Consul's service registry, and validating the dynamic scaling and health checks in a microservices environment.
+- **Project 6:** In the sixth project, I built a Flask API to demonstrate how APIs work, using Python's Flask framework. This project covers setting up a basic API to manage user data, implementing CRUD operations (Create, Read, Update, Delete), and testing the API using Postman. Additionally, the project includes creating a simple frontend using HTML and CSS, as well as deploying the API in a virtual environment.
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
