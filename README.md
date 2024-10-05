@@ -10,6 +10,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 4. [Project 4: Setup WordPress Website Using LAMP Stack](projects/project-4.md)
 5. [Project 5: Setup Service Discovery Using Nginx & Consul](projects/project-5.md)
 6. [Project 6: Flask API Project](projects/project-6.md)
+7. [Project 7: AWS VPC Setup and Configuration](projects/project-7.md)
 
 ## Overview
 
@@ -21,8 +22,16 @@ In this repository, you'll find detailed documentation for each of the projects 
 - **Project 4:** For the fourth project, I set up a WordPress website using a LAMP stack (Linux, Apache, MySQL, PHP), covering the process from server setup to final website configuration, including securing the site with SSL certificates and WordPress customization.
 - **Project 5:** In the fifth project, I implemented service discovery using Nginx and Consul. This project focused on setting up Consul for dynamic service registration and discovery, configuring Nginx as a load balancer that automatically updates its backend servers based on Consul's service registry, and validating the dynamic scaling and health checks in a microservices environment.
 - **Project 6:** In the sixth project, I built a Flask API to demonstrate how APIs work, using Python's Flask framework. This project covers setting up a basic API to manage user data, implementing CRUD operations (Create, Read, Update, Delete), and testing the API using Postman. Additionally, the project includes creating a simple frontend using HTML and CSS, as well as deploying the API in a virtual environment.
+- **Project 7:** In the seventh project, I designed and deployed an AWS Virtual Private Cloud (VPC) to create an isolated network environment for hosting services. This project involved setting up subnets across multiple availability zones, creating route tables, attaching an Internet Gateway and NAT Gateway, and configuring network ACLs for security. The project also covers testing the VPC topology and verifying connectivity between private and public subnets.
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
+
+## Facilitators
+
+A big thank you to my facilitators who have guided me through this journey:
+
+- **Jay:** [GitHub Profile](https://github.com/StrangeJay/devops-beginner-bootcamp)
+- **Tobi:** [GitHub Profile](https://github.com/TobiOlajumoke/devops-beginner-bootcamp)
 
 ## Contact
 
