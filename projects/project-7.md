@@ -43,7 +43,7 @@ An Internet Gateway (IGW) was then attached to the VPC to allow public subnets t
 - **Task:** Create and configure the VPC and attach an Internet Gateway.
 - **Result:** VPC and Internet Gateway created and attached successfully.
 
-![VPC and Internet Gateway](<images/create vpc.png>)
+![VPC and Internet Gateway](../img/project7/internent-gateway.png)
 
 ## Step 3: Creating Subnets
 
