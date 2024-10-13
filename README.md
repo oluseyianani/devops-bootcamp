@@ -25,7 +25,7 @@ In this repository, you'll find detailed documentation for each of the projects 
 - **Project 6:** In the sixth project, I built a Flask API to demonstrate how APIs work, using Python's Flask framework. This project covers setting up a basic API to manage user data, implementing CRUD operations (Create, Read, Update, Delete), and testing the API using Postman. Additionally, the project includes creating a simple frontend using HTML and CSS, as well as deploying the API in a virtual environment.
 - **Project 7:** In the seventh project, I designed and deployed an AWS Virtual Private Cloud (VPC) to create an isolated network environment for hosting services. This project involved setting up subnets across multiple availability zones, creating route tables, attaching an Internet Gateway and NAT Gateway, and configuring network ACLs for security. The project also covers testing the VPC topology and verifying connectivity between private and public subnets.
 - **Project 8:** In the eighth project, I automated the creation of AWS infrastructure using **Terraform**
-- 
+
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
 ## Facilitators
