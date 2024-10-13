@@ -1,0 +1,3 @@
+[submodule "resources/Terraform-VPC"]
+	path = resources/Terraform-VPC
+	url = https://github.com/TobiOlajumoke/Terraform-VPC.git
