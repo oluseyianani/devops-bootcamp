@@ -1,3 +1,6 @@
 [submodule "resources/Terraform-VPC"]
 	path = resources/Terraform-VPC
 	url = https://github.com/TobiOlajumoke/Terraform-VPC.git
+[submodule "resources/docker-flask"]
+	path = resources/docker-flask
+	url = https://github.com/TobiOlajumoke/docker-flask.git
