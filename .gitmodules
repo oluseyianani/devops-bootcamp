@@ -4,3 +4,6 @@
 [submodule "resources/docker-flask"]
 	path = resources/docker-flask
 	url = https://github.com/TobiOlajumoke/docker-flask.git
+[submodule "resources/prometheus-observability-stack"]
+	path = resources/prometheus-observability-stack
+	url = https://github.com/TobiOlajumoke/prometheus-observability-stack

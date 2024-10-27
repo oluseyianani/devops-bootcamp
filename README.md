@@ -13,6 +13,7 @@ Welcome to my project portfolio! This repository contains all the projects I've 
 7. [Project 7: AWS VPC Setup and Configuration](projects/project-7.md)
 8. [Project 8: AWS VPC Creation Using Terraform](projects/project-8.md)
 9. [Project 9: Dockerizing a Flask App and Pushing to Docker Hub](projects/project-9.md)
+10. [Project 10: Deploying Prometheus Stack with Docker Compose on AWS](projects/project-10.md)
 
 ## Overview
 
@@ -27,6 +28,7 @@ In this repository, you'll find detailed documentation for each of the projects 
 - **Project 7:** In the seventh project, I designed and deployed an AWS Virtual Private Cloud (VPC) to create an isolated network environment for hosting services. This project involved setting up subnets across multiple availability zones, creating route tables, attaching an Internet Gateway and NAT Gateway, and configuring network ACLs for security. The project also covers testing the VPC topology and verifying connectivity between private and public subnets.
 - **Project 8:** In the eighth project, I automated the creation of AWS infrastructure using **Terraform**
 - **Project 9:** In the ninth project, I containerized a Python Flask application using **Docker** and deployed it to an AWS EC2 instance. I also pushed the Docker image to Docker Hub, making it easily accessible for future use.
+- **Project 10:** In the tenth project, I deployed a **Prometheus monitoring stack** using Docker Compose on AWS. This project involved setting up Prometheus, Alert Manager, Node Exporter, and Grafana on an EC2 instance, all orchestrated through Docker Compose. Terraform was used to provision the AWS resources, and I configured Grafana for real-time data visualization while testing alerts with Alert Manager.
 
 Each project link will take you to a dedicated markdown file where you can explore the project's documentation in depth. Feel free to explore, and if you have any questions or suggestions, don't hesitate to reach out!
 
